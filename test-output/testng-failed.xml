@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [46224926_Suite]">
+  <parameter name="LoginPageHeading" value="//*[@contains(text(),&quot;Sign in and book&quot;)]"/>
+  <parameter name="Signup" value="//button[@class=&#039;btn-block bt-orimaru btn-signup&#039;]"/>
+  <parameter name="CreateAccount" value="//a[@href=&#039;signup?lang=en&#039;]"/>
+  <parameter name="ProfileHeader" value="//*[@class=&quot;headerAdminSection&quot;]/span"/>
+  <parameter name="SignInButton" value="//*[@id=&quot;submitbtn&quot;]"/>
+  <parameter name="PickupField" value="//*[@id=&quot;pickup_input&quot;]"/>
+  <parameter name="PaymentSelector" value="//*[@id=&quot;paymentOptionsSelector&quot;]"/>
+  <parameter name="AboutLink" value="//*[@class=&#039;nav-img2 ng-scopeL&#039;]"/>
+  <parameter name="FlightdetailsField" value="//*[@id=&quot;flightDetails&quot;]"/>
+  <parameter name="BecomeCaptain" value="//*[@class=&quot;round button primary&quot;]"/>
+  <parameter name="SignUpRide" value="//*[@class=&quot;round button&quot;]"/>
+  <parameter name="SignInLink" value="//*[text()=&quot;Sign in&quot;]"/>
+  <parameter name="BookRideButton" value="//*[text()=&quot;Book ride&quot;]"/>
+  <parameter name="SapientLogo" value="//*[@class=&#039;psLogo ng-scope&#039;]"/>
+  <parameter name="DropOffField" value="//*[@id=&quot;dropoff_input&quot;]"/>
+  <parameter name="EmailField" value="//*[@id=&quot;email&quot;]"/>
+  <parameter name="PasswordField" value="//*[@id=&quot;password&quot;]"/>
+  <parameter name="Facebook" value="//div[contains(@class, &#039;facebook-btn&#039;) and contains(.//span, &#039;Sign in with Facebook&#039;)]"/>
+  <parameter name="device" value="chrome"/>
+  <listeners>
+    <listener class-name="utility.Propertylistener"/>
+  </listeners>
+  <test thread-count="5" verbose="2" name="46224926_test(failed)">
+    <classes>
+      <class name="runner.TestRunner2">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="Report"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="config_driver"/>
+        </methods>
+      </class> <!-- runner.TestRunner2 -->
+    </classes>
+  </test> <!-- 46224926_test(failed) -->
+</suite> <!-- Failed suite [46224926_Suite] -->

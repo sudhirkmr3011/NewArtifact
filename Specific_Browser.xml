@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--
+*************code to launch the page on specific browser *****************
+    -->
+<suite name="46224926_Suite" verbose="2">
+    <listeners>
+        <listener class-name="utility.Propertylistener"/>
+    </listeners>
+    <test name="46224926_test">
+        <classes>
+            <class name="runner.TestRunner2"/>
+        </classes>
+    </test>
+</suite>

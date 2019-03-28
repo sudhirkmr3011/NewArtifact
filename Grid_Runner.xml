@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+*************code to execute class "Grid_runner"*****************
+    --> 
+<suite name="Suite" parallel="false">
+<test name="Grid">
+
+<classes>
+ <class name="runner.Grid_Runner" />
+        </classes>
+</test>
+</suite>
+

@@ -1,0 +1,80 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 7,
+            "value": "#  Background: User navigates to home page"
+          },
+          {
+            "line": 8,
+            "value": "#    Given I am on the company home page on URL \"https://www.careem.com\""
+          }
+        ],
+        "line": 11,
+        "name": "Successful login using valid credentials",
+        "description": "",
+        "id": "user-booking-validation;successful-login-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3692151740,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on the company home page on URL \"LoginPageURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LoginPageURL",
+                  "offset": 38
+                }
+              ],
+              "location": "CommonStep.i_am_on_the_page_on_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3182277395,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on \"SignInLink\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SignInLink",
+                  "offset": 12
+                }
+              ],
+              "location": "CommonStep.i_click_on_the_element(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@mayank"
+          }
+        ]
+      }
+    ],
+    "name": "User Booking validation",
+    "description": "As an customer of careem application\nI want to login into my profile using my credentials\nIn order to book a cab",
+    "id": "user-booking-validation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/UI/LoginProfile.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginProfile"
+      }
+    ]
+  }
+]

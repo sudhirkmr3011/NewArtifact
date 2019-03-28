@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="10017" started-at="2019-03-28T16:38:08Z" finished-at="2019-03-28T16:38:18Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner2.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner2@6615435c]" name="feature" class="runner.TestRunner2"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Android" duration-ms="10017" started-at="2019-03-28T16:38:08Z" finished-at="2019-03-28T16:38:18Z">
+      <class name="runner.TestRunner2">
+        <test-method status="PASS" signature="config_driver(java.lang.String)[pri:0, instance:runner.TestRunner2@6615435c]" name="config_driver" is-config="true" duration-ms="2347" started-at="2019-03-28T20:38:08Z" finished-at="2019-03-28T20:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_driver -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner2@6615435c]" name="setUpClass" is-config="true" duration-ms="184" started-at="2019-03-28T20:38:10Z" finished-at="2019-03-28T20:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner2@6615435c]" name="feature" duration-ms="7084" started-at="2019-03-28T20:38:10Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-28T20:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User Booking validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner2@6615435c]" name="tearDownClass" is-config="true" duration-ms="315" started-at="2019-03-28T20:38:18Z" finished-at="2019-03-28T20:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="Report()[pri:0, instance:runner.TestRunner2@6615435c]" name="Report" is-config="true" duration-ms="102" started-at="2019-03-28T20:38:18Z" finished-at="2019-03-28T20:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+      </class> <!-- runner.TestRunner2 -->
+    </test> <!-- Android -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (1)]">
+  <test thread-count="5" name="Grid(failed)">
+    <classes>
+      <class name="runner.Grid_Runner">
+        <methods>
+          <include name="config_driver"/>
+          <include name="tearDownClass"/>
+          <include name="feature"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runner.Grid_Runner -->
+    </classes>
+  </test> <!-- Grid(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->
