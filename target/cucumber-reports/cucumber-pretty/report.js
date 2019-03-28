@@ -56,7 +56,7 @@ formatter.match({
   "location": "CommonStep.i_am_on_the_page_on_URL(String)"
 });
 formatter.result({
-  "duration": 3692151740,
+  "duration": 4109601409,
   "status": "passed"
 });
 formatter.match({
@@ -69,7 +69,7 @@ formatter.match({
   "location": "CommonStep.i_click_on_the_element(String)"
 });
 formatter.result({
-  "duration": 3182277395,
+  "duration": 3323775200,
   "status": "passed"
 });
 });

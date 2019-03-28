@@ -2,9 +2,10 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -144,7 +145,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;1&quot; configfailurepolicy=&quot;continue&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;BDD Test Suite&quot; parallel=&quot;tests&quot;&gt;
-  &lt;test name=&quot;Android&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Android&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;device&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;runner.TestRunner2&quot;/&gt;
@@ -199,7 +200,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'runner.TestRunner2')
-data.setCell(0, 3, 7084);
+data.setCell(0, 3, 7590);
 window.suiteTableData['BDD_Test_Suite']= { tableData: data, tableDiv: 'times-div-BDD_Test_Suite'}
 return data;
 }
@@ -237,19 +238,19 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">2352 ms</span>
+                <span class="method-start">1914 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">feature(User Booking validation)</span>
-                <span class="method-start">2615 ms</span>
+                <span class="method-start">2154 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">9700 ms</span>
+                <span class="method-start">9745 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">Report</span>
-                <span class="method-start">10183 ms</span>
+                <span class="method-start">10064 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
